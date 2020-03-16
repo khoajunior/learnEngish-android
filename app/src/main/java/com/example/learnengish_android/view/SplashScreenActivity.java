@@ -1,4 +1,4 @@
-package com.example.learnengish_android;
+package com.example.learnengish_android.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,9 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+
+import com.example.learnengish_android.MainActivity;
+import com.example.learnengish_android.R;
 
 import gr.net.maroulis.library.EasySplashScreen;
 
@@ -36,7 +39,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent welcome = new Intent(SplashScreenActivity.this,MainActivity.class);
+                Intent welcome = new Intent(SplashScreenActivity.this, MainActivity.class);
                 startActivity(welcome);
                 overridePendingTransition(R.anim.fade_in,R.anim.fade_out);
                 finish();
