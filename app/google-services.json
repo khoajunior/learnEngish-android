@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "785126366949",
+    "firebase_url": "https://learnengish-android.firebaseio.com",
+    "project_id": "learnengish-android",
+    "storage_bucket": "learnengish-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785126366949:android:57bbc93f97e0064c667e0c",
+        "android_client_info": {
+          "package_name": "com.example.learnengish_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785126366949-bjh8dga8414nsu347puec3t32vmmr00c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.learnengish_android",
+            "certificate_hash": "27ca3d4a81c6cc357825062dd36f1c16f6c4babd"
+          }
+        },
+        {
+          "client_id": "785126366949-bsi9s4qendfuiq5gr2oe3ttg7as254p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCJiBU7Tso4k6JmPMEEnb9GrKLXC88URY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785126366949-bsi9s4qendfuiq5gr2oe3ttg7as254p6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

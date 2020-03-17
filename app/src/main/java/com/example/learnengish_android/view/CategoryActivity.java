@@ -2,6 +2,7 @@ package com.example.learnengish_android.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.SparseBooleanArray;
 import android.view.View;
@@ -53,9 +54,15 @@ public class CategoryActivity extends AppCompatActivity implements View.OnClickL
                     Toast.makeText(getApplicationContext(),"Không có chủ đề nào được chọn",Toast.LENGTH_SHORT).show();
                 }else {
                     Toast.makeText(getApplicationContext(),"Các chủ đề được chọn"+listChoice,Toast.LENGTH_LONG).show();
+                    openQuestionActivity();
                 }
 
                 break;
         }
+    }
+
+    public void openQuestionActivity(){
+        Intent intent = new Intent(CategoryActivity.this,QuestionActivity.class);
+        startActivity(intent);
     }
 }
