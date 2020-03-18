@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/progress"
+        android:icon="@drawable/ic_home"
+        android:title="Quá trình" />
+    <item
+        android:id="@+id/menuStart"
+        android:icon="@drawable/ic_mission"
+        android:title="Nhiệm vụ" />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_stat_name"
+        android:title="Thiết đặt" />
+</menu>
