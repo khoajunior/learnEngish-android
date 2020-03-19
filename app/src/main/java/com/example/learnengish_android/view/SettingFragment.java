@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.learnengish_android.R;
 
-public class SettingFragment extends Fragment {
+public class SettingFragment extends Fragment  {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {

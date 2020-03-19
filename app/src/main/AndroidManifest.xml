@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.Result_Activity"></activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
+        <activity
+            android:name=".MainActivity$SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".view.Result_Activity" />
         <activity android:name=".view.CategoryActivity" />
         <activity android:name=".view.QuestionActivity" /> <!-- <activity android:name=".SplashScreenActivity"></activity> -->
         <activity android:name=".view.SplashScreenActivity">
