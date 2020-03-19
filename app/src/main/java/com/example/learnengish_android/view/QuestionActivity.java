@@ -16,13 +16,13 @@ public class QuestionActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question);
-        continueButton = findViewById(R.id.buttonContinue);
-        continueButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-               openResultActivity();
-            }
-        });
+//        continueButton = findViewById(R.id.buttonContinue);
+//        continueButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//               openResultActivity();
+//            }
+//        });
     }
 
     public void openResultActivity(){
