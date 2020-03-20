@@ -17,6 +17,8 @@ import com.example.learnengish_android.view.ProcessFragment;
 import com.example.learnengish_android.view.SettingFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+import ch.halcyon.squareprogressbar.SquareProgressBar;
+
 public class MainActivity extends AppCompatActivity {
     private Button button;
 
@@ -54,8 +56,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
             }
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,selectedFragment).commit();
-
-            return false;
+            return true;
         }
     };
 

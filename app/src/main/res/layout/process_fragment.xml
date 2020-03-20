@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom = "http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
 <!--    <TextView-->
@@ -81,13 +82,16 @@
                 android:text="Cấp độ 1" />
 
             <com.github.lzyzsd.circleprogress.DonutProgress
+                custom:donut_progress="20"
                 android:layout_gravity="center"
                 android:layout_height="150dp"
                 android:layout_width="150dp">
-
             </com.github.lzyzsd.circleprogress.DonutProgress>
 
+
+
             <LinearLayout
+                android:id="@+id/donut_progress"
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

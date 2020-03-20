@@ -12,9 +12,12 @@ import androidx.fragment.app.Fragment;
 import com.example.learnengish_android.R;
 
 public class HomeFragmnet extends Fragment {
+
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+
         return inflater.inflate(R.layout.start_fragment,container,false);
     }
 }
